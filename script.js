@@ -10,7 +10,7 @@ for(let i = 0; i < 16; i++){
         newDiv.classList.add('square');
 
         newDiv.addEventListener('mouseover', (e) => {
-            console.log(e.target);
+            e.target.style.backgroundColor = "black";
         });
 
         row.appendChild(newDiv);
