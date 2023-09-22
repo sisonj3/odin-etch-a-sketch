@@ -9,6 +9,10 @@ for(let i = 0; i < 16; i++){
         const newDiv = document.createElement('div');
         newDiv.classList.add('square');
 
+        newDiv.addEventListener('mouseover', (e) => {
+            console.log(e.target);
+        });
+
         row.appendChild(newDiv);
     }
 
