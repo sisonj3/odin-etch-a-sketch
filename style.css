@@ -3,7 +3,7 @@
 }
 
 .square {
-    min-width: 10px;
-    min-height: 10px;
+    min-height: 25px;
+    min-width: 25px;
     border: 1px solid black;
 }
