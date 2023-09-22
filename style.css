@@ -1,3 +1,7 @@
+.row {
+    display: flex;
+}
+
 .square {
     min-width: 10px;
     min-height: 10px;
