@@ -3,14 +3,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 960px;
+    padding: 10px;
 }
 
 .row {
     display: flex;
+    height: 6.25%;
+    width: 960px;
 }
 
 .square {
-    min-height: 25px;
-    min-width: 25px;
+    flex: auto;
+    width: 6.25%;
     border: 1px solid black;
 }
